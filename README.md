@@ -4,7 +4,7 @@ The Manufactorers library Adafruit_SSD1306.h includes inbuilt functions only for
 From the SSD1306 documentation, it is concluded that display's based on SSD1306 driver doesnot have option to scroll downwards or upwards. So, there is no way to scroll the text vertically downwards on the SSD1306 display.\
 With some further research, an article from [hackaday](https://hackaday.io/project/10533-nano-tty/log/34525-smooth-scrolling-on-a-ssd1306) saved my day. 
 The SSD1306 display driver supports vertical scrolling by setting the start line for the scrolled text. The code here uses I2C protocol for communication between display and processor.\
-This is the third version or method for display the text with vertical scrolling.\
+This is the third version or method for display the text with vertical scrolling and the demo video is included in the google drive.\
 Note: The Input String should be received from Software Serial.
 
 ## PROGRAM:
