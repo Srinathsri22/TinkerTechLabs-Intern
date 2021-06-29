@@ -103,7 +103,7 @@ int display_message(String *str,int start, int*end,int n)
             i--;
             
             //line 32 indicates the end of 4th line which is the end of the current page.
-            if(line == 32)
+            if(line == 64)
             {
                 //Delay between two successive pages
                 delay(500);
