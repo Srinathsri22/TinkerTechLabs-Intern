@@ -118,8 +118,8 @@ Firstly, the internal charge pump circuitry is turned ON and the necessary displ
             display.setCursor(0,line);
             i--;
             
-            //line 32 indicates the end of 4th line which is the end of the current page.
-            if(line == 32)
+            //line 64 indicates the end of 8th line which is the end of the current page. For 128x32 display 32 line number can be used.
+            if(line == 64)
             {
                 //Delay between two successive pages
                 delay(500);
